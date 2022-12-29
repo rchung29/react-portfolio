@@ -1,10 +1,10 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import HeroImage from "../assets/IMG_3432.png";
-import { Cursor, useTypeWrite, useTypewriter } from "react-simple-typewriter";
+import {useTypewriter } from "react-simple-typewriter";
 
 const Home = () => {
-  const [text, count] = useTypewriter({
+  const [text] = useTypewriter({
     words: [
       "CS @ THE UNIVERSITY OF VIRGINIA",
     ],

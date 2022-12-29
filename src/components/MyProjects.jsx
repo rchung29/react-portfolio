@@ -1,7 +1,6 @@
 import React from 'react'
 import RetaiLanding from "../assets/RetailLanding.png";
 import RetaiDashboard from "../assets/RetailDashboard.png";
-import PellucidApp from "../assets/PellucidApp.png";
 import PellucidLanding from "../assets/PellucidLanding.png";
 import { motion } from "framer-motion";
 
