@@ -6,7 +6,7 @@ import {AiFillFileWord} from 'react-icons/ai';
 
 const Contact = () => {
   return (
-    <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }} name="Projects" className="w-full text-white md:h-screen">
+    <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }} name="Contact" className="w-full text-white md:h-screen">
         <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center h-full">
         <div className="pb-8 text-center">
           <p className="text-md tracking-widest inline text-zinc-700">
