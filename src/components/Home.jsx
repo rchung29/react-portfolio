@@ -11,9 +11,9 @@ const Home = () => {
     delaySpeed: 2000,
   })
   return (   
-    <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }} className='w-full h-screen items-center'>
+    <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }} className='w-full items-center'>
       <div className='max-w-screen-xl flex flex-col items-center justify-center mx-auto md:flex-row'>
-        <div className='flex flex-row md:flex-col justify-start items-center h-full md:mx-2'>
+        <div className='flex flex-row md:flex-col justify-start items-center h-full md:mx-2 mt-7 md:my-0'>
           <a href="#!" type="button" class="rounded-full border border-zinc-500 text-zinc-500 leading-normal w-10 h-10 hover:border-red-500 hover:bg-red-500 hover:text-white ease-in duration-100 m-2">
              <svg aria-hidden="true"
               focusable="false"
