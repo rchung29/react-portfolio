@@ -2,7 +2,7 @@ import React from 'react'
 import RetaiLanding from "../assets/RetailLanding.png";
 import RetaiDashboard from "../assets/RetailDashboard.png";
 import PellucidLanding from "../assets/PellucidLanding.png";
-import Streamify from "../assets/Streamify.png";
+// import Streamify from "../assets/Streamify.png";
 import { motion } from "framer-motion";
 
 const MyProjects = () => {
