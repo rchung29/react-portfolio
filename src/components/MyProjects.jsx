@@ -57,7 +57,7 @@ const MyProjects = () => {
               </div>            
             </div>
           ))}
-            <div key={id} className="bg-zinc-800 rounded-lg">            
+            <div className="bg-zinc-800 rounded-lg">            
               <img src="/assets/Streamify.png" alt="" className='rounded-md'/>
             <div className='flex items-center justify-center'>
               <div className='text-center text-zinc-500 py-1'>Development Build. Working but in progress.</div>
