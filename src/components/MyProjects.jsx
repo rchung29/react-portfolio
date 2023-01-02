@@ -28,7 +28,7 @@ const MyProjects = () => {
     {
       id: 4,
       src: Streamify,
-      link: "https://beautiful-taffy-cd52d4.netlify.app/",
+      link: "https://cheerful-shortbread-e7483c.netlify.app/",
       git: "https://github.com/rchung29/spotify-clone",
     },
   ]
