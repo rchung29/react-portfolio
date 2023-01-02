@@ -2,6 +2,7 @@ import React from 'react'
 import RetaiLanding from "../assets/RetailLanding.png";
 import RetaiDashboard from "../assets/RetailDashboard.png";
 import PellucidLanding from "../assets/PellucidLanding.png";
+import Streamify from "../assets/Streamify.png";
 import { motion } from "framer-motion";
 
 const MyProjects = () => {
@@ -23,6 +24,12 @@ const MyProjects = () => {
       src: PellucidLanding,
       link: "https://beautiful-taffy-cd52d4.netlify.app/",
       git: "https://github.com/rchung29/pellucid-landing",
+    },
+    {
+      id: 4,
+      src: Streamify,
+      link: "https://beautiful-taffy-cd52d4.netlify.app/",
+      git: "https://github.com/rchung29/spotify-clone",
     },
   ]
   return (
