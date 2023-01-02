@@ -25,12 +25,12 @@ const MyProjects = () => {
       link: "https://beautiful-taffy-cd52d4.netlify.app/",
       git: "https://github.com/rchung29/pellucid-landing",
     },
-    {
-      id: 4,
-      src: Streamify,
-      link: "https://cheerful-shortbread-e7483c.netlify.app/",
-      git: "https://github.com/rchung29/spotify-clone",
-    },
+    // {
+    //   id: 4,
+    //   src: Streamify,
+    //   link: "https://cheerful-shortbread-e7483c.netlify.app/",
+    //   git: "https://github.com/rchung29/spotify-clone",
+    // },
   ]
   return (
     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }} name="Projects" className="w-full text-white md:h-screen">
@@ -57,6 +57,18 @@ const MyProjects = () => {
               </div>            
             </div>
           ))}
+            <div key={id} className="bg-zinc-800 rounded-lg">            
+              <img src="/assets/Streamify.png" alt="" className='rounded-md'/>
+            <div className='flex items-center justify-center'>
+              <div className='text-center text-zinc-500 py-1'>Development Build. Working but in progress.</div>
+                <button className=" text-zinc-500 hover:text-white w-1/2 px-3 py-1 m-4 duration-200 hover:scale-105">
+                <a href="https://cheerful-shortbread-e7483c.netlify.app/">Demo</a>
+                </button>
+                <button className="text-zinc-500 hover:text-white w-1/2 px-3 py-1 m-4 duration-200 hover:scale-105">
+                <a href="https://github.com/rchung29/spotify-clone.git">Github</a>
+                </button>
+              </div>            
+            </div>
         </div>
         </div>
     </motion.div>
