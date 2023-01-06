@@ -33,8 +33,9 @@ const MyProjects = () => {
     },
   ]
   return (
-    <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }} name="Projects" className="w-full text-white sm:h-screen">
-        <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full h-full">
+    <div className='w-full text-white flex justify-center items-center'>
+          <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }} name="Projects">
+        <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full">
         <div className="pb-8 text-center md:text-left">
           <p className="text-md tracking-widest inline text-zinc-700">
             MY PROJECTS
@@ -43,7 +44,7 @@ const MyProjects = () => {
             What I've Been Working On
           </h2>
         </div>
-        <div className='my-12 grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+        <div className='my-4 grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
           {projects.map(({id,src,link,git}) => (
             <div key={id} className="bg-zinc-800 rounded-lg">            
               <img src={src} alt="" className='rounded-md'/>
@@ -60,6 +61,7 @@ const MyProjects = () => {
         </div>
         </div>
     </motion.div>
+    </div>
 
   )
 }

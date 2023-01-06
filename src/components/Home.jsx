@@ -10,10 +10,11 @@ const Home = () => {
     ],
     delaySpeed: 2000,
   })
-  return (   
-    <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }} className='w-full items-center'>
+  return ( 
+    <div className='w-full flex justify-center items-center h-[calc(100vh-80px)]'>
+    <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }} className=''>
       <div className='max-w-screen-xl flex flex-col items-center justify-center mx-auto md:flex-row'>
-        <div className='flex flex-row md:flex-col justify-start items-center h-full md:mx-2 mt-7 md:my-0'>
+        <div className='flex flex-row md:flex-col justify-start md:mx-2 mt-7 md:my-0'>
           <a href="#!" type="button" class="rounded-full border border-zinc-500 text-zinc-500 leading-normal w-10 h-10 hover:border-red-500 hover:bg-red-500 hover:text-white ease-in duration-100 m-2">
              <svg aria-hidden="true"
               focusable="false"
@@ -47,8 +48,8 @@ const Home = () => {
               </svg>
           </a>
         </div>
-        <div className='flex flex-col items-center h-full md:mr-12 md:ml-8'>
-          <div className='text-center md:text-left my-4 md:my-72'>
+        <div className='flex flex-col md:mr-12 md:ml-8 items-center'>
+          <div className='text-center md:text-left my-4'>
             <h2 className='text-sm my-4 tracking-widest text-zinc-700'>
               {text}
             </h2>
@@ -64,12 +65,13 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className='flex justify-items-end flex-col items-center h-full md:m'>  
+        <div className='flex justify-items-end flex-col items-center h-full'>  
           <img src={HeroImage} alt="this is me!" className='rounded-full h-2/3 w-2/3' />
           <div className='absolute border border-red-500 rounded-full h-[350px] w-[350px] animate-ping'></div>
         </div>
       </div>
-    </motion.div>
+     </motion.div>     
+    </div>
   )
 }
 

@@ -28,10 +28,11 @@ const Experience = () => {
         },
     ]
   return (
-    <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }} name="Experience" className="w-full h-screen text-white">
-      <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="text-center pb-8">
-        <p className="text-md tracking-widest inline text-zinc-700">
+    <div className="w-full h-screen flex justify-center items-center text-white">
+      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }} name="Experience">
+      <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full">
+        <div className="text-center py-8">
+        <p className="text-md tracking-widest inline mt- text-zinc-700">
             EXPERIENCE
           </p>
           <h2 className='text-4xl pt-1 text-zinc-100 font-bold'>
@@ -39,7 +40,7 @@ const Experience = () => {
           </h2>
         </div>
 
-        <div className='my-12 flex relative overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center'>
+        <div className='flex relative overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center'>
         <div className='w-full md:max-w-screen-lg flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#EF4444]/80'>
             {experience.map(({id,company,role,duration,bulletPoints}) => (
                 <article className='flex flex-col rounded-lg items-center
@@ -62,6 +63,7 @@ const Experience = () => {
     </div>
       </div>
     </motion.div>
+    </div>
   )
 }
 

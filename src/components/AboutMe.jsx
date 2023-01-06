@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 
 const AboutMe = () => {
   return (
-    <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }} name="About" className="w-full h-screen text-white">
+    <div className='w-full h-screen flex justify-center text-white items-center'>
+      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }} name="About" className="">
       <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-center md:text-left">
           <p className="text-md tracking-widest inline text-zinc-700">
@@ -20,6 +21,7 @@ const AboutMe = () => {
         </p>
       </div>
     </motion.div>
+    </div>
   )
 }
 

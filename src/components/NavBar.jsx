@@ -26,7 +26,7 @@ const NavBar = () => {
 
 
   return (
-    <nav class="bg-zinc-900 sticky z-50 top-0 flex justify-between flex-wrap items-center h-24 w-full px-4 text-base text-white">
+    <nav class="bg-zinc-900 sticky z-50 top-0 flex justify-between flex-wrap items-center h-[80px] w-full px-4 text-base text-white">
         <div class="md:mx-auto hidden w-full md:flex items-center md:w-auto" id="menu">
             <ul class="text-base text-zinc-500 md:flex md:justify-between md:pt-0">
                 {links.map(({id, link}) => (
