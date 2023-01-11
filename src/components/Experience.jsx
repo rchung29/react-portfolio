@@ -28,11 +28,11 @@ const Experience = () => {
         },
     ]
   return (
-    <div className="w-full h-screen flex justify-center items-center text-white">
+    <div className="w-full flex justify-center items-center text-white">
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }} name="Experience">
       <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full">
         <div className="text-center py-8">
-        <p className="text-md tracking-widest inline mt- text-zinc-700">
+        <p className="text-md tracking-widest inline text-zinc-700">
             EXPERIENCE
           </p>
           <h2 className='text-4xl pt-1 text-zinc-100 font-bold'>
@@ -40,11 +40,10 @@ const Experience = () => {
           </h2>
         </div>
 
-        <div className='flex relative overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center'>
-        <div className='w-full md:max-w-screen-lg flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#EF4444]/80'>
+        <div className='w-full md:max-w-screen-lg flex flex-col mx-auto md:flex-row md:space-x-5 mx-5 p-6'>
             {experience.map(({id,company,role,duration,bulletPoints}) => (
-                <article className='flex flex-col rounded-lg items-center
-                space-y-2 md:space-y-5 flex-shrink-0 w-[350px] md:w-[400px] xl:w-[450px] snap-center
+                <article className='my-4 flex flex-col rounded-lg items-center
+                space-y-2 md:space-y-5 flex-shrink-0 w-[320px] md:w-[400px] xl:w-[450px] snap-center
                 bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer
                 transition-opacity duration-200 overflow-hidden'>
                     <div className='px-0 md:px-10'>
@@ -60,7 +59,6 @@ const Experience = () => {
                 </article>
             ))}
         </div>
-    </div>
       </div>
     </motion.div>
     </div>
