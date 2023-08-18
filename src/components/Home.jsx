@@ -15,7 +15,7 @@ const Home = () => {
     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }} className=''>
       <div className='max-w-screen-xl flex flex-col items-center justify-center mx-auto md:flex-row'>
         <div className='flex flex-row md:flex-col justify-start md:mx-2 mt-7 md:my-0'>
-          <a href="#!" type="button" class="rounded-full border border-zinc-500 text-zinc-500 leading-normal w-10 h-10 hover:border-red-500 hover:bg-red-500 hover:text-white ease-in duration-100 m-2">
+          <a href="https://www.linkedin.com/in/rchung28/" type="button" class="rounded-full border border-zinc-500 text-zinc-500 leading-normal w-10 h-10 hover:border-red-500 hover:bg-red-500 hover:text-white ease-in duration-100 m-2">
              <svg aria-hidden="true"
               focusable="false"
               data-prefix="fab"
@@ -59,7 +59,7 @@ const Home = () => {
               </h2>
             </div>
             <div className='my-10 hover:-translate-y-1 duration-200'>
-              <a href="https://drive.google.com/file/d/1Quqv5v9nt_zj8QglnTgzFYRwsgsjSHFw/view?usp=sharing" class=" rounded-lg px-8 py-4 text-white border-2 border-red-500 bg-red-500 text-sm font-medium hover:bg-red-400 hover:border-red-400">
+              <a href="https://drive.google.com/file/d/17W3ERB1BbeuwKSPvbnZ4454YdMXU0JGO/view?usp=sharing" class=" rounded-lg px-8 py-4 text-white border-2 border-red-500 bg-red-500 text-sm font-medium hover:bg-red-400 hover:border-red-400">
                 Download My Resume
               </a>
             </div>
