@@ -20,13 +20,13 @@ const Contact = () => {
                 <a href="https://github.com/rchung29" className='justify-center text-center mx-2 my-4 md:my-0 flex items-center px-6 py-3 rounded-full border border-zinc-500 text-zinc-500 hover:border-red-500 hover:bg-red-500 hover:text-white hover:-translate-y-1 ease-in-out duration-200'>
                     <FaGithub size={20} className="mr-3" />Github
                 </a>
-                <a href="https://www.linkedin.com/in/ryan-chung-706546220/" className='justify-center text-center mx-2 my-4 md:my-0 flex items-center px-6 py-3 rounded-full border border-zinc-500 text-zinc-500 hover:border-red-500 hover:bg-red-500 hover:text-white hover:-translate-y-1 ease-in-out duration-200'>
+                <a href="https://www.linkedin.com/in/rchung28/" className='justify-center text-center mx-2 my-4 md:my-0 flex items-center px-6 py-3 rounded-full border border-zinc-500 text-zinc-500 hover:border-red-500 hover:bg-red-500 hover:text-white hover:-translate-y-1 ease-in-out duration-200'>
                     <FaLinkedin size={20} className="mr-3" />LinkedIn
                 </a>
-                <a href="mailto:msc2pd@virgina.edu" className='justify-center text-center mx-2 my-4 md:my-0 flex items-center px-6 py-3 rounded-full border border-zinc-500 text-zinc-500 hover:border-red-500 hover:bg-red-500 hover:text-white hover:-translate-y-1 ease-in-out duration-200'>
+                <a href="mailto:rchung793@gmail.com" className='justify-center text-center mx-2 my-4 md:my-0 flex items-center px-6 py-3 rounded-full border border-zinc-500 text-zinc-500 hover:border-red-500 hover:bg-red-500 hover:text-white hover:-translate-y-1 ease-in-out duration-200'>
                     <MdEmail size={20} className="mr-3" />Email
                 </a>
-                <a href="https://drive.google.com/file/d/1Quqv5v9nt_zj8QglnTgzFYRwsgsjSHFw/view?usp=sharing" className='justify-center text-center mx-2 my-4 md:my-0 flex items-center px-6 py-3 rounded-full border border-zinc-500 text-zinc-500 hover:border-red-500 hover:bg-red-500 hover:text-white hover:-translate-y-1 ease-in-out duration-200'>
+                <a href="https://drive.google.com/file/d/17W3ERB1BbeuwKSPvbnZ4454YdMXU0JGO/view?usp=sharing" className='justify-center text-center mx-2 my-4 md:my-0 flex items-center px-6 py-3 rounded-full border border-zinc-500 text-zinc-500 hover:border-red-500 hover:bg-red-500 hover:text-white hover:-translate-y-1 ease-in-out duration-200'>
                     <AiFillFileWord size={20} className="mr-3" />Resume
                 </a>
         </div>

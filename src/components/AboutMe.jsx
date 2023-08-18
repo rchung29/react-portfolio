@@ -16,8 +16,7 @@ const AboutMe = () => {
         </div>
 
         <p className="text-lg mt-12 text-zinc-500 text-center md:text-left">
-          I'm currently a second year student at the University of Virginia studying Computer Science. I first started as a graphic designer but my love for front-end design led me to HTML, CSS, and JavaScript. I started designing and marking up websites in 2018 and freelanced my work so I could work on my craft.
-          Since then, I've interned at Ginia Group, a government contractor, in their research and development department where I developed my first full-stack application using Django. In my time outside of school, I like to code, workout, and explore the outdoors with my friends.
+          I'm currently a third year student at the University of Virginia studying Computer Science. I first started as a graphic designer but my love for front-end design led me to HTML, CSS, and JavaScript. I started designing and marking up websites in 2018 and freelanced my work so I could work on my craft. In my time outside of school, I like to code, workout, and explore the outdoors with my friends.
         </p>
       </div>
     </motion.div>

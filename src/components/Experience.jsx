@@ -2,28 +2,39 @@ import React from 'react'
 import { motion } from "framer-motion";
 
 const Experience = () => {
-    const experience = [
+  const experience = [
         {
-            id: 1,
+          id: 1,
+          company: "RoomMe",
+          role: "Software Engineering Intern",
+          duration: "June 2023 - August 2023",
+          bulletPoints: [
+          "Led development for a resident management and custom ad dashboard, resulted in the acquisition of a $500K contract and placement in up to 160 apartment complexes by end of year.",
+          "Automated social media growth through the creation of selenium scripts, resulting in a 200% increase in followers, 50% growth in users, and the capability to grow an unlimited number of accounts autonomously.",
+            "Executed a UI/UX redesign for the mobile app, enhancing user experience and increasing user retention by 10%.",
+          "Optimized database CRUD operations, implementing efficient procedures and reducing operation costs by 3%.",
+          ], 
+        },
+        {
+            id: 2,
             company: "Ginia Group",
             role: "Software Engineering Intern",
             duration: "June 2022 - August 2022",
             bulletPoints: [
-            "Worked alongside senior developers in the R&D department to produce enterprise level software.",
-            "Developed a full stack Django-based web application that accepted cryptocurrency based donations for non-profit organizations",
-            "Implemented a user authentication system for posting non-profit organizations backed by a SQL database.",
+            "Spearheaded research on cryptocurrency to assess its potential to send funds to overseas non-profit organizations.",
+            "Wrote SQL queries to parse cryptocurrency transactions on Dune.com, identified activity trends to aid in research.",
+            "Developed a full-stack web app for accepting cryptocurrency donations for 8 partner non-profits through Coinbase.",
             ],
         },
         {
-            id: 2,
-            company: "Freelance Front-end Designer and Developer",
-            role: "Frontend Designer and Developer",
+            id: 3,
+            company: "Freelance",
+            role: "Frontend Designer/Developer",
             duration: "January 2018 - August 2021",
             bulletPoints: [
-            "Utilized my design and development skills to create and launch various websites for a range of clients.",
-            "Created front-end user interfaces primarily using Tailwind, Bootstrap, JavaScript, and Figma.",
-            "Grew several customer bases over 50%, solved issues in user experience design.",
-            "Interfaced with employers on a daily basis to ensure cohesiveness in project specifications.",
+            "Designed and developed high-converting landing pages ensuring seamless user experience and driving increased customer engagement; companies saw on average an increase of 10% in registration and 5% in revenue.",
+            "Launched 6 web apps to manage residential proxy subscriptions, on average increasing user retention by 5%.",
+            "Implemented features to allow owners to set traffic limits, view traffic usage and users to view and cancel subscriptions.",
             ],
         },
     ]
@@ -40,7 +51,7 @@ const Experience = () => {
           </h2>
         </div>
 
-        <div className='w-full md:max-w-screen-lg flex flex-col mx-auto md:flex-row md:space-x-5 mx-5 p-6'>
+        <div className='overflow-x-auto w-full md:max-w-screen-lg flex flex-col mx-auto md:flex-row md:space-x-5 mx-5 p-6'>
             {experience.map(({id,company,role,duration,bulletPoints}) => (
                 <article className='my-4 flex flex-col rounded-lg items-center
                 space-y-2 md:space-y-5 flex-shrink-0 w-[320px] md:w-[400px] xl:w-[450px] snap-center
